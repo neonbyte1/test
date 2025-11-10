@@ -1,0 +1,25 @@
+name: On Docker Image Published
+
+on:
+  registry_package:
+    types: [published]
+
+jobs:
+  handle-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Inspect published image
+        run: |
+          echo "Full event payload:"
+          cat $GITHUB_EVENT_PATH
+          IMAGE_TAG=$(jq -r '.package.version' $GITHUB_EVENT_PATH)
+          echo "Published image tag: $IMAGE_TAG"
+
+          if [[ "$IMAGE_TAG" == "main" ]]; then
+            echo "Image from main branch published"
+          else
+            echo "Release image published: $IMAGE_TAG"
+          fi
