@@ -1,0 +1,125 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1762281753049,
+      "tag": "0000_create_core_loader_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1762281929426,
+      "tag": "0001_create_users_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1762282078472,
+      "tag": "0002_create_products_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1762282282202,
+      "tag": "0003_create_product_versions_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1762283180831,
+      "tag": "0004_add_relation_between_products_and_product_versions",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1762283780826,
+      "tag": "0005_add_relation_between_users_and_products",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1762301327513,
+      "tag": "0006_change_product_active_to_status",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1762728677615,
+      "tag": "0007_create_hardware_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1762728983252,
+      "tag": "0008_add_relation_between_users_and_hardware",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1762729524515,
+      "tag": "0009_add_relation_between_user_and_hardware",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1762733772466,
+      "tag": "0010_add_relation_between_product_and_version",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1762734728888,
+      "tag": "0011_drop_filename_from_product_versions",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1762734789659,
+      "tag": "0012_add_last_update_date_to_product_versions",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1762736015691,
+      "tag": "0013_add_key_to_product_versions",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1762791903100,
+      "tag": "0014_remove_key_from_product",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1762797679867,
+      "tag": "0015_add_access_key_to_users_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1762798018472,
+      "tag": "0016_add_unique_constraint_to_access_key_in_users_table",
+      "breakpoints": true
+    }
+  ]
+}

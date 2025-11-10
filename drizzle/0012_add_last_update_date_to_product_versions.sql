@@ -1,0 +1,1 @@
+ALTER TABLE "product_versions" ADD COLUMN "last_update" timestamp DEFAULT now();

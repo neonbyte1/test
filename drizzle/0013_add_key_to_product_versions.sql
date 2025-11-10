@@ -1,0 +1,1 @@
+ALTER TABLE "product_versions" ADD COLUMN "key" varchar(64) NOT NULL;

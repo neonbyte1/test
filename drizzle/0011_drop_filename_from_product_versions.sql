@@ -1,0 +1,1 @@
+ALTER TABLE "product_versions" DROP COLUMN "filename";
