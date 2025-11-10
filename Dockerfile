@@ -3,7 +3,7 @@ FROM denoland/deno
 LABEL org.opencontainers.image.title="valkyrie-cheats: backend" \
       org.opencontainers.image.description="A minimal backend, fully managable via RESTful API" \
       org.opencontainers.image.authors="neonbyte1" \
-      org.opencontainers.image.source="https://github.com/valkyrie-cheats/backend" \
+      org.opencontainers.image.source="https://github.com/neonbyte1/test" \
       org.opencontainers.image.vendor="valkyrie-cheats" \
       org.opencontainers.image.licenses="PROPRIETARY"
 
